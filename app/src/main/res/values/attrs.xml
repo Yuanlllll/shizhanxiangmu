@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="leftBtn" format="reference"/>
+        <attr name="conterTu" format="reference"/>
+        <attr name="rightBtn" format="reference"/>
+    </declare-styleable>
+
+</resources>

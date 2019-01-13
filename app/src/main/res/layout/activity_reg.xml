@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@mipmap/login_icon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:hint="手机号"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:drawableLeft="@mipmap/login_icon_phone"
+        />
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:hint="密码"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:drawableLeft="@mipmap/login_icon_lock"
+        android:drawableRight="@mipmap/login_icon_eye"
+        />
+    <Button
+        android:id="@+id/reg"
+        android:layout_marginLeft="70dp"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:text="注册"
+        android:textColor="#ff5f71"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/sha"
+        android:backgroundTint="#ffffff"
+
+        />
+
+
+</LinearLayout>

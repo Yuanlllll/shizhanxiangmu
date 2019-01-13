@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">shizhan2</string>
+    <string name="smzx">扫描二维码</string>
+    <string name="sczx">生成二维码</string>
+</resources>
